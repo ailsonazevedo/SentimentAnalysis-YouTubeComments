@@ -77,6 +77,15 @@ $ git clone https://github.com/ailsonazevedo/sentimentanalysis-youtubecomments
 # Access
 $ cd sentimentanalysis-youtubecomments
 
+Import Dataset
+# Download dataset 
+$ https://www.kaggle.com/datasets/datasnaek/youtube
+
+# Create folder
+$ mkdir data #(windows)
+
+# After import dataset for folder data
+
 # Install dependencies
 $ yarn
 
@@ -84,6 +93,9 @@ $ yarn
 $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
+```
+```bash
+
 ```
 
 ## :memo: License ##
