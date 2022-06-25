@@ -13,6 +13,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
+from wordcloud import WordCloud
 
 import nltk
 nltk.download('stopwords')
@@ -57,6 +58,7 @@ US_comments.drop(30000, inplace=True)
 US_comments = US_comments.reset_index().drop('index',axis=1)
 
 US_comments.head()
+
 
 #Removendo pontuação, números e caractéres especiais
 US_comments['comment_text'] = US_comments['comment_text'].str.replace("[^a-zA-Z#]", " ")
@@ -120,7 +122,7 @@ Positivity.columns = ['video_id','Positive Percentage']
 Positivity.head()
 
 all_words = ' '.join([text for text in US_comments_new['comment_text']])
-from wordcloud import WordCloud
+
 wordcloud = WordCloud(width=800, height=500, random_state=21, max_font_size=110).generate(all_words)
 
 plt.figure(figsize=(10, 7))
