@@ -41,13 +41,17 @@
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/ailsonazevedo" target="_blank">Author</a>
+  <a href="https://www.overleaf.com/read/jgjnkwbxnpys">Article</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Describe your project
+This project aims to demonstrate, through a sentiment analysis, an
+NLP (Natural Language Processing) machine learning algorithm that is capable of distinguishing comments, such as: positive, negative or neutral, from a
+dataset containing comments from the YouTube video platform .
+
 
 ## :sparkles: Features ##
 
