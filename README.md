@@ -40,7 +40,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/ailsonazevedo" target="_blank">Author</a>
+  <a href="https://github.com/ailsonazevedo" target="_blank">Author</a> &#xa0; | &#xa0;
   <a href="https://www.overleaf.com/read/jgjnkwbxnpys">Article</a>
 </p>
 
@@ -52,7 +52,11 @@ This project aims to demonstrate, through a sentiment analysis, an
 NLP (Natural Language Processing) machine learning algorithm that is capable of distinguishing comments, such as: positive, negative or neutral, from a
 dataset containing comments from the YouTube video platform .
 
+Link for article: https://www.overleaf.com/read/jgjnkwbxnpys
 
+Link for code NLP: https://colab.research.google.com/drive/1yc8J8l_2DkWCqVkrzfnpWdNCCCQ1ypom?usp=sharing
+
+Link for dataset: https://www.kaggle.com/datasets/datasnaek/youtube
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1;\
@@ -91,12 +95,13 @@ $ mkdir data #(windows)
 # After import dataset for folder data
 
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ py manage.py migrate
+$ py manage.py runserver
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://127.0.0.1:8000>
 ```
 ```bash
 
